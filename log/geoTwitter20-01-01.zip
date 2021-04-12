@@ -1,0 +1,14 @@
+2021-03-30 18:02:25.488497 /data-fast/twitter 2020/geoTwitter20-01-01.zip geoTwitter20-01-01/geoTwitter20-01-01_00:00
+2021-03-30 18:02:42.206632 /data-fast/twitter 2020/geoTwitter20-01-01.zip geoTwitter20-01-01/geoTwitter20-01-01_01:00
+Traceback (most recent call last):
+  File "src/map.py", line 53, in <module>
+    for line in f:
+  File "/usr/lib/python3.6/zipfile.py", line 831, in readline
+    return io.BufferedIOBase.readline(self, limit)
+  File "/usr/lib/python3.6/zipfile.py", line 836, in peek
+    chunk = self.read(n)
+  File "/usr/lib/python3.6/zipfile.py", line 872, in read
+    data = self._read1(n)
+  File "/usr/lib/python3.6/zipfile.py", line 948, in _read1
+    data = self._decompressor.decompress(data, n)
+KeyboardInterrupt
